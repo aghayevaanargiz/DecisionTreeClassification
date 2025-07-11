@@ -68,7 +68,7 @@ In an earlier version of this project, I made a mistake by:
 - **Creating the target label** (`popularity_class`) based on `log_ratings_count`
 - But then also using `log_ratings_count` as an input feature for training
 
-This led to **artificially high performance** (accuracy, precision, recall, F1 all near 1.0), because the model was effectively being given the answer during training — a classic case of **data leakage**.
+This led to **artificially high performance** (accuracy, precision, recall, F1 all near 1.0), because the model was effectively being given the answer during training, a classic case of **data leakage**.
 
 ### What I Learned
 - Always check for **correlation between your features and labels**, especially if the target was derived from a feature.

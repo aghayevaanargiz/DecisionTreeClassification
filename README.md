@@ -57,7 +57,7 @@ To build a classification model that predicts the popularity of books using clea
 ---
 
 ## Dataset 
-- `[books.csv](https://www.kaggle.com/datasets/jealousleopard/goodreadsbooks)`: Original raw dataset
+- `https://www.kaggle.com/datasets/jealousleopard/goodreadsbooks`: Original raw dataset
 ---
 ## Lessons Learned: Handling Data Leakage
 

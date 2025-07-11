@@ -1,6 +1,6 @@
 # Book Popularity Classification using Decision Trees
 
-This project aims to classify books into **three popularity classes** — `popular`, `average`, and `unpopular` — using a **Decision Tree Classifier**. The classification is based on metadata from a book dataset, including features like average rating, number of pages, and author information.
+This project aims to classify books into **three popularity classes**, `popular`, `average`, and `unpopular`, using a **Decision Tree Classifier**. The classification is based on metadata from a book dataset, including features like average rating, number of pages, and author information.
 
 ---
 
@@ -61,7 +61,7 @@ To build a classification model that predicts the popularity of books using clea
 ---
 ## Lessons Learned: Handling Data Leakage
 
-This project was very special to me because it helped me discover and understand a critical issue in machine learning — **data leakage**.
+This project was very special to me because it helped me discover and understand a critical issue in machine learning, **data leakage**.
 
 ### What Happened?
 In an earlier version of this project, I made a mistake by:
